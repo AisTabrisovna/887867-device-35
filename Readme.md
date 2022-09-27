@@ -1,7 +1,7 @@
 # Личный проект «Девайс»
 
 * Студент: [Aleksandr Bushuev](https://up.htmlacademy.ru/htmlcss/35/user/887867).
-* Наставник: ``(https://htmlacademy.ru/profile/deepsick).
+* Наставник: `Aleksandr Bushuev`(https://up.htmlacademy.ru/htmlcss/35/user/887867).
 
 ---
 
