@@ -65,16 +65,72 @@
   </header>
   <section class="catalog-products">
     <h2 class="catalog-header">Фильтр:</h2>
-     <div class="half-width">
-        <label for="price">
-          <h3 class="catalog-filter-price">Стоимость</h3>
+    <form class="catalog-filter" action="https://echo.htmlacademy.ru/" method="get">
+      <fieldset class="catalog-filter-group">
+        <legend class="catalog-filter-title">Цвет</legend>
+        <ul class="catalog-filter-list">
+          <li class="catalog-filter-item">
+            <label class="control">
+              <input class="control-input" type="checkbox" name="black" checked>
+                Черный
+            </label>
+          </li>
+          <li class="catalog-filter-item">
+            <label class="control">
+              <input class="control-input" type="checkbox" name="white" checked>
+                Белый
+            </label>
+          </li>
+          <li class="catalog-filter-item">
+            <label class="control">
+              <input class="control-input" type="checkbox" name="blue">
+                Синий
+            </label>
+          </li>
+          <li class="catalog-filter-item">
+            <label class="control">
+              <input class="control-input" type="checkbox" name="red">
+                Красный
+            </label>
+          </li>
+          <li class="catalog-filter-item">
+            <label class="control">
+              <input class="control-input" type="checkbox" name="pink">
+                Розовый
+            </label>
+          </li>
+        </ul>
+      </fieldset>
+
+  <fieldset class="catalog-filter-group">
+    <legend class="catalog-filter-title">Bluetooth</legend>
+    <ul class="catalog-filter-list">
+      <li class="catalog-filter-item">
+        <label class="control">
+          <input class="control-input" type="radio" name="product-group" value="Yes" checked>
+           Есть
         </label>
-        от 0 <input type="range" id="price" min="0" max="9000" step="1"> до 5000
-     </div>
+      </li>
+      <li class="catalog-filter-item">
+        <label class="control">
+          <input class="control-input" type="radio" name="product-group" value="No">
+           Нет
+        </label>
+      </li>
+      <button class="button" type="submit">Показать</button>
+        </form>
 
+  <select class="select-control" aria-label="Сортировка">
+     <option value="popular">Популярные</option>
+        <option value="cheap">Цена</option>
+  </select>
+  <a class="button button-light" href="#">
+    <span class="visually-hidden"></span>
+  </a>
+  <a class="button" href="#">
+    <span class="visually-hidden"></span>
+  </a>
 
-
-  </section>
 
 
 </main>
