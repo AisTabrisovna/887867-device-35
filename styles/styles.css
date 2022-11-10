@@ -158,6 +158,7 @@ ul {
   padding: 0;
   justify-content: space-between;
 }
+
 .back {
   background: url("../image/back.svg");
   color: #000000;
@@ -243,10 +244,9 @@ ul {
   background: #FFFFFF;
   width: 12px;
   height: 12px;
-    padding: 0;
-    margin: 0;
+  padding: 0;
+  margin: 0;
   border-radius: 50%;
-
   margin-bottom: 70px;
 }
 
@@ -256,12 +256,10 @@ ul {
   margin: 0;
   padding: 0;
   list-style-type: none;
-
 }
 
 .categories-icon {
   background-color: #FFE17F;
-
 }
 
 .categories-header {
@@ -273,6 +271,7 @@ ul {
   line-height: 24px;
   color: #000000;
 }
+
 .categories-list {
   display: flex;
   justify-content: space-between;
@@ -281,23 +280,24 @@ ul {
   margin-bottom: 163px;
 
 
-  }
-  .categories-item{
-    margin: 0;
+}
+
+.categories-item {
+  margin: 0;
   padding: 0;
-    width: 160px;
-  }
+  width: 160px;
+}
+
 .categories-link {
-   text-decoration: none;
+  text-decoration: none;
 }
 
-.services {
+
+
+.sevices-container{
   display: flex;
-    background-color: #F0F0F0;
-    width: 1440px;
-
+  background-color: #F0F0F0;
 }
-
 .services-button {
   font-family: "Raleway", sans-serif;
   font-style: normal;
@@ -312,10 +312,12 @@ ul {
   letter-spacing: 0.2em;
   margin-bottom: 55px;
 }
+
 .services-button-list {
   margin: 0;
   padding: 0;
 }
+
 .services-list {
   margin: 0;
   padding: 0;
@@ -334,23 +336,22 @@ ul {
 }
 
 .services-text {
-    margin: 0;
+  margin: 0;
   padding: 0;
   font-size: 18px;
   line-height: 30px;
   color: #444444;
   margin-bottom: 145px;
 }
-.services-icon {
 
-}
+
 .delivery {
   margin: 0;
   padding: 0;
   background-color: #F0F0F0;
   width: 1160px;
   height: 100px;
-}
+  }
 
 .delivery-button {
   margin: 0;
@@ -368,39 +369,60 @@ ul {
   color: #000000;
   border: none;
 }
-
+.inform {
+  display: flex;
+}
 .inform-header {
+  margin: 0;
+  padding: 0;
   font-family: "Raleway", sans-serif;
   font-style: normal;
   font-weight: 800;
   font-size: 50px;
   line-height: 50px;
   color: #000000;
+  margin-bottom: 48px;
 }
 
 .inform-list {
+  margin: 0;
+  padding: 0;
   list-style-type: disc;
 }
 
 .inform-text {
+  margin: 0;
+  padding: 0;
   line-height: 30px;
   color: #444444;
+  margin-bottom: 30px;
 }
-
+.inform-tel {
+  display: block;
+  margin-bottom: 30px;
+}
 .inform-item {
   font-weight: 700;
   letter-spacing: -0.02em;
   color: #000000;
+  margin-bottom: 19px;
 }
-
+.inform-time {
+  margin: 0;
+  padding: 0;
+}
 .inform-text-header {
+  margin: 0;
+  padding: 0;
   font-weight: 700;
   font-size: 24px;
   line-height: 30px;
   color: #444444;
+  margin-bottom: 15px;
 }
 
 .inform-link {
+  display: block;
   font-family: "Raleway", sans-serif;
   font-style: normal;
   font-weight: 800;
@@ -411,20 +433,32 @@ ul {
   text-transform: uppercase;
   color: #000000;
   text-decoration: none;
+  margin: 0;
+  padding: 0;
+  margin-top: 40px;
 }
 
 .about-text {
   font-style: normal;
+  margin: 0;
+  padding: 0
 }
-
+.mailing {
+background-color: #F0F0F0;
+}
 .mailing-email {
   line-height: 30px;
   color: #444444;
   border: none;
   width: 557px;
   height: 55px;
+  margin: 0;
+  padding: 0;
+  background-color: #F0F0F0;
 }
+.mailing-form {
 
+}
 .mailing-button {
   font-family: "Raleway", sans-serif;
   font-style: normal;
@@ -437,8 +471,13 @@ ul {
   color: #000000;
   width: 253px;
   height: 57px;
+  margin: 0;
+  padding: 0
 }
-
+.mailing-text {
+  margin: 0;
+  padding: 0;
+}
 /* заканчивается боди */
 .page-footer {
   font-family: "Rubik", sans-serif;
